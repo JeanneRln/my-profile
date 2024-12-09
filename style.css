@@ -1,0 +1,108 @@
+/* Colors and fonts */
+
+
+body {
+	background-color: rgb(240,240,240);
+	color: rgb(30,30,30);
+	font-family: Helvetica;
+	font-size: 17px;
+	line-height: 1.2 ;
+	letter-spacing: 1px;
+}
+h1, h2, h3, p {
+	font-family: Montserrat;
+}
+h1 {
+	color : #6A669D;
+	letter-spacing: 4px;
+	font-size : 32px;
+	text-transform : uppercase;
+	font-weight:750;
+}
+h2 {
+	color : rgb(18,13,49);
+	font-size : 24px;
+}
+p  {
+	color :rgb(18,13,49);
+	font-weight:400;
+}
+a {
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family : Montserrat;
+	font-weight:700;
+	font-size:17px;
+	color : #6A669D;
+}
+a:hover {
+	color : #CAC4CE;
+}
+
+/*Custom design with class */
+.img-circle {
+	border-radius: 50%;
+}
+.shadowed{
+	box-shadow: 4px 4px 4px rgb(200,200,200);
+}
+.container {
+	width : 700px;
+	margin : 40px auto;
+}
+
+@media (max-width: 700px) {
+	.container {
+	width:600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+	width:500px;
+	}
+}
+
+.card-white {
+	background:white;
+	padding : 30px;
+	border: 2px solid white;
+	border-radius: 8px;
+	box-shadow: 0px 15px 35px rgba(106,102,157,0.1);
+	margin : 20px;
+	text-align:center;
+}
+.btn-purple {
+	background-color:#6A669D;
+	color : white;
+	padding: 15px 20px;
+	border-radius:8px;
+	margin:40px 0px;
+}
+.btn-purple:hover{
+	color :rgb(18,13,49);
+	background-color: #CAC4CE;
+}
+.list-inline {
+	list-style:none;
+	padding-left:0px;
+}
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+.list-inline i {
+	font-size:30px;
+}
+/*Design adjustements using id () */
+#btn-resize {
+	font-size:33px;
+}
+#introduction p{
+	margin-bottom:40px;
+}
+#leader {
+	border: 1.5px solid #6A669D;
+}
+
+
